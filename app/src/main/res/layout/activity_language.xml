@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LanguageActivity">
+
+    <TextView
+        android:id="@+id/textViewLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="언어 선택"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_Korean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLanguage"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/rounded_btn"
+        android:textColor="@color/white"
+        android:text="한국어" />
+
+    <Button
+        android:id="@+id/btn_English"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_Korean"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded_btn"
+        android:textColor="@color/white"
+        android:text="English" />
+
+    <Button
+        android:id="@+id/btn_Chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_English"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded_btn"
+        android:textColor="@color/white"
+        android:text="中文" />
+
+    <Button
+        android:id="@+id/btb_Japanese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_Chinese"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded_btn"
+        android:textColor="@color/white"
+        android:text="日本語" />
+
+    <Button
+        android:id="@+id/btn_Vietamese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btb_Japanese"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded_btn"
+        android:textColor="@color/white"
+        android:text="tiếng Việt" />
+
+
+
+</RelativeLayout>
