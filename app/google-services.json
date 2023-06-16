@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "959465236406",
+    "project_id": "pillert",
+    "storage_bucket": "pillert.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959465236406:android:11c36420b7db9c3abbc317",
+        "android_client_info": {
+          "package_name": "com.example.pillert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959465236406-12gsjj0d8ib79frahnk2kuumhuilrc3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pillert",
+            "certificate_hash": "5e54bb506aafaf67e15df3badb07eb3192b68caa"
+          }
+        },
+        {
+          "client_id": "959465236406-al0ulard8jqgsilhjl9tsmgi8rnr05mj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy1CNKzmagMUQe1VsJDfCqRPJ_3-iP8Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959465236406-al0ulard8jqgsilhjl9tsmgi8rnr05mj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

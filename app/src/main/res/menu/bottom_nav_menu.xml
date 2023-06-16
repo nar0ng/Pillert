@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/navigation_page1"
+    android:icon="@drawable/ic_home"
+    android:title="페이지1"/>
+
+    <item
+        android:id="@+id/navigation_page2"
+        android:icon="@drawable/ic_alarm"
+        android:title="페이지2"/>
+
+    <item
+        android:id="@+id/blank"
+        android:title=""
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/navigation_page3"
+        android:icon="@drawable/ic_home"
+        android:title="페이지3"/>
+
+    <item
+        android:id="@+id/navigation_page4"
+        android:icon="@drawable/ic_home"
+        android:title="페이지4"/>
+
 
 </menu>
