@@ -20,6 +20,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.firestore.FirebaseFirestore
 
 
+
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var toolbar: Toolbar
@@ -45,6 +46,7 @@ class MainActivity : AppCompatActivity() {
 
         // 프레그먼트 초기화
         MyPillFragment = MyPillFragment()
+        MyPillFragment.registerForActivityResult(this)
         PillAlarmFragment = PillAlarmFragment()
         SearchFragment = SearchFragment()
         SettingsFragment = SettingsFragment()

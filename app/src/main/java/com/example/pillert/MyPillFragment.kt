@@ -52,11 +52,10 @@ class MyPillFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentMyPillBinding.inflate(inflater, container, false)
-
-
+        myCheckPermission(requireActivity() as AppCompatActivity)
         return binding.root
     }
-/*
+
     fun myCheckPermission(activity: AppCompatActivity) {
 
         val requestPermissionLauncher = activity.registerForActivityResult(
@@ -89,12 +88,13 @@ class MyPillFragment : Fragment() {
             }
         }
     }
-*/
+
 
     override fun onStart(){
         super.onStart()
         if(PillertApplication.checkAuth()){
             PillertApplication.db.collection("mypill")
+                .orderBy("Date", Query.Direction.DESCENDING)
                 .get()
                 .addOnSuccessListener {result ->
                     val itemList = mutableListOf<ItemMyPillModel>()
@@ -131,3 +131,5 @@ class MyPillFragment : Fragment() {
             }
     }
 }
+
+                  
